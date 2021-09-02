@@ -19,8 +19,12 @@
 }
 .titulo
 {
+    background-image: url(../img/textura.jpg);
+    background-size: 10%;
+    background-repeat: initial;
     display: grid;
     grid-template-columns: 20% 80%;
+    color: aliceblue;
 }
 .contenedor-principal
 {
@@ -43,7 +47,7 @@ header
 }
 .foto
 {
-    margin-left: 25px;
+    margin-left: 80px;
 }
 header.titulo
 {
