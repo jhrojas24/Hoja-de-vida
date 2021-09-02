@@ -1,0 +1,68 @@
+@font-face
+{
+    font-family: 'prueba';
+    src: url(../font/Mayan.ttf);
+}
+.inicio
+{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.inicio p
+{
+    color: white;
+    width: 350px;
+    text-align: center;
+    align-content: center;
+}
+.titulo
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.contenedor-principal
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0px auto;
+    
+    font-family: 'prueba';
+}
+.datos-personales
+{
+    margin: 0%; 
+    width: 80%;
+    text-align: center;
+    padding: 3%;
+}
+header
+{
+    background-color: rgb(77, 236, 29);
+}
+.foto
+{
+    margin-left: 25px;
+}
+header.titulo
+{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    
+    
+}
+header h1
+{
+    text-align: center;
+    font-size: 120px;
+    height: 220px;
+    margin-top: 50px;
+    font-family: 'prueba';
+}
+header img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
